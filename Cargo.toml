@@ -1,0 +1,15 @@
+[package]
+name = "xrandrs"
+version = "0.1.1"
+edition = "2021"
+authors = ["hitchhooker <tommi@niemi.lol>"]
+# Added this line to specify the binary name
+bin_name = "xrandrs"
+
+[dependencies]
+regex = "1.8.1"
+serde = { version = "1.0.160", features = ["derive"] }
+toml = "0.7.3"
+# Added these two dependencies
+clap = "3.0.0"
+anyhow = "1.0.70"
